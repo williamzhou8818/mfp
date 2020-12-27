@@ -4,7 +4,7 @@ import MarketingApp from './components/MarketingApp';
 export default () => {
   return (
     <div>
-      <h1>Hi there to change aws!</h1>
+      <h1>Hi configure-aws-credentials@v1 aws!</h1>
       <hr />
       <MarketingApp />
     </div>
