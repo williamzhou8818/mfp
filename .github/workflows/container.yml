@@ -33,7 +33,7 @@ jobs:
     # Invalidate Cloudfront (this action)
       - name: invalidate
         uses: chetan/invalidate-cloudfront-action@master
-        env:
+        with:
           DISTRIBUTION: ${{ secrets.AWS_DISTRIBUTION_ID }}
           PATHS: './container/latest/index.html'
           AWS_REGION: 'ap-southeast-2'
