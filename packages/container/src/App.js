@@ -4,7 +4,7 @@ import MarketingApp from './components/MarketingApp';
 export default () => {
   return (
     <div>
-      <h1>Hi runaws s3 ls</h1>
+      <h1>Hi aws-cli@v1.18.43</h1>
       <hr />
       <MarketingApp />
     </div>
