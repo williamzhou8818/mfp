@@ -1,3 +1,5 @@
-node_modules
-dist
+./packages/container/node_modules
+./packages/marketing/node_modules
+./packages/container/dist
+./packages/marketing/dist
 .DS_Store
