@@ -6,7 +6,6 @@ import Header from './components/Header';
 export default () => {
   return (
     <BrowserRouter>
-      <h1>hello</h1>
       <Header />
       <MarketingApp />
     </BrowserRouter>
